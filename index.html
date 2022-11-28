@@ -564,30 +564,35 @@
         <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
         <form class="modal-form">
           <div class="modal-form-block">
-            <label for="user-name" class="user-name-label">Ім'я</label>
+            <label for="user-name" class="modal-form-label">Ім'я</label>
             <input type="text" class="modal-input" name="user-name" id="user-name" />
           </div>
 
           <div class="modal-form-block">
-            <label for="phone" class="user-name-label">Телефон</label>
+            <label for="phone" class="modal-form-label">Телефон</label>
             <input type="tel" class="modal-input" name="phone" id="phone" />
           </div>
 
           <div class="modal-form-block">
-            <label for="email" class="user-name-label">Пошта</label>
+            <label for="email" class="modal-form-label">Пошта</label>
             <input type="email" class="modal-input" name="user-name" id="email" />
           </div>
 
           <div class="modal-form-block">
-            <label for="coment">Коментар</label>
+            <label for="coment" class="modal-form-label">Коментар</label>
             <textarea
               name="coment"
               id="coment"
-              class="modal-coment"
+              class="modal-text"
               placeholder="введіть текст"
             ></textarea>
+            <label class="modal-form-label">
+              <input type="checkbox" name="polici" class="modal-polici" />
+              Погоджуюся з розсилкою та приймаю
+              <a href="" class="polici-link">Умови договору</a></label
+            >
           </div>
-          <button type="submit">Відправити</button>
+          <button type="submit" class="modal-btn button">Відправити</button>
         </form>
       </div>
     </div>

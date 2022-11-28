@@ -689,10 +689,68 @@ img {
 }
 
 .modal-title {
-  display: inline-block;
+  display: block;
   margin-bottom: 12px;
+  text-align: center;
+
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
+.modal-form-label {
+  display: block;
+  margin-bottom: 4px;
+}
+.modal-input {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100%;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-label {
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.modal-text {
+  height: 120px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+
+  margin-bottom: 20px;
+}
+.modal-polici {
+  margin-bottom: 30px;
+}
+.polici-link {
+  text-decoration: underline;
+  color: var(--activ-color);
+}
+
+.modal-btn {
+  display: block;
+  padding: 10px 52px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  background-color: var(--activ-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .closs-bt {
   position: absolute;
   right: 8px;

@@ -545,9 +545,13 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio-item-link:focus .portfolio-overlay {
+  transform: translateY(0);
+}
 .portfolio-item:hover .portfolio-overlay {
   transform: translateY(0);
 }
+
 .filter-button {
   font-weight: 500;
   font-size: 16px;

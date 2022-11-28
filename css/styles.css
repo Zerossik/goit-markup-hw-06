@@ -688,6 +688,20 @@ img {
   pointer-events: auto;
 }
 
+/* -----------___________MODAL FORM____------------------ */
+.modal-form-block {
+  position: relative;
+}
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(calc(-50% - 5px));
+
+  margin-left: 15px;
+
+  transition: fill 250ms var(--transition-t-f);
+}
 .modal-title {
   display: block;
   margin-bottom: 12px;
@@ -702,6 +716,11 @@ img {
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: #757575;
 }
 .modal-input {
   margin-bottom: 10px;
@@ -710,13 +729,11 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
+  background-color: transparent;
 
-.modal-form-label {
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.01em;
-  color: #757575;
+  padding-left: 42px;
+
+  transition: outline-color 250ms var(--transition-t-f);
 }
 
 .modal-text {
@@ -726,7 +743,10 @@ img {
   border-radius: 4px;
   resize: none;
 
+  padding: 12px 16px;
   margin-bottom: 20px;
+
+  transition: outline-color 250ms var(--transition-t-f);
 }
 .modal-polici {
   margin-bottom: 30px;
@@ -751,6 +771,15 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+.modal-input:focus + .form-icon,
+.modal-input:focus,
+.modal-text:focus {
+  fill: var(--activ-color);
+  outline-color: var(--activ-color);
+}
+ {
+}
 .closs-bt {
   position: absolute;
   right: 8px;
@@ -765,6 +794,13 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: transparent;
+}
+.closs-bt-icon {
+  transition: fill 250ms var(--transition-t-f);
+}
+
+.closs-bt:hover .closs-bt-icon {
+  fill: var(--activ-color);
 }
 
 .is-hidden {

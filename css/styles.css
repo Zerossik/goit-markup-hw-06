@@ -554,6 +554,8 @@ img {
   line-height: calc(20 / 16);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+  transition: transform 400ms var(--transition-t-f);
 }
 
 .subscribe-input:focus + .subscribe-label,

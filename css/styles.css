@@ -929,7 +929,8 @@ img {
   transition: fill 250ms var(--transition-t-f);
 }
 
-.closs-bt:hover .closs-bt-icon {
+.closs-bt:hover .closs-bt-icon,
+.closs-bt:focus .closs-bt-icon {
   fill: var(--activ-color);
 }
 

@@ -815,6 +815,11 @@ img {
   padding-left: 42px;
 
   transition: outline-color 250ms var(--transition-t-f);
+
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
+  
 }
 
 .modal-text {
@@ -828,6 +833,10 @@ img {
   margin-bottom: 20px;
 
   transition: outline-color 250ms var(--transition-t-f);
+
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
 }
 
 .polici-link {
@@ -839,9 +848,17 @@ img {
 }
 .modal-polici:checked + .polici-icon {
   background-color: var(--activ-color);
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  border-color: transparent;
 }
 .polici-label {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 7px;
   outline: 1px solid tomato;
   margin-bottom: 30px;
 

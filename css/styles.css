@@ -562,6 +562,7 @@ img {
 .subscribe-input:not(:placeholder-shown) + .subscribe-label {
   transform: translate(calc(-100% - 20px), -50%);
 }
+
 .subscribe-btn {
   padding: 10px 28px;
   padding-right: 62px;
@@ -828,14 +829,35 @@ img {
 
   transition: outline-color 250ms var(--transition-t-f);
 }
-.modal-polici {
-  margin-bottom: 30px;
-}
+
 .polici-link {
   text-decoration: underline;
   color: var(--activ-color);
 }
 
+.modal-polici {
+}
+.modal-polici:checked + .polici-icon {
+  background-color: var(--activ-color);
+}
+.polici-label {
+  display: block;
+  outline: 1px solid tomato;
+  margin-bottom: 30px;
+
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.polici-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+
+  border: 2px solid #212121;
+  border-radius: 2px;
+}
 .modal-btn {
   display: block;
   padding: 10px 52px;

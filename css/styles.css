@@ -784,15 +784,14 @@ img {
 
 /* -----------___________MODAL FORM____------------------ */
 .modal-form-block {
+  margin-bottom: 10px;
   position: relative;
 }
 .form-icon {
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(calc(-50% - 5px));
-
-  margin-left: 15px;
+  left: 15px;
+  transform: translateY(-50%);
 
   transition: fill 250ms var(--transition-t-f);
 }
@@ -817,7 +816,6 @@ img {
   color: #757575;
 }
 .modal-input {
-  margin-bottom: 10px;
   height: 40px;
   width: 100%;
 
@@ -832,7 +830,6 @@ img {
   font-size: 16px;
   line-height: calc(20 / 16);
   letter-spacing: 0.03em;
-  
 }
 
 .modal-text {
@@ -858,7 +855,6 @@ img {
 }
 
 .modal-polici {
-
 }
 .polici-label {
   display: flex;
@@ -880,7 +876,7 @@ img {
   fill: transparent;
 }
 
-.modal-polici:checked + .polici-icon{
+.modal-polici:checked + .polici-icon {
   fill: #ffffff;
   background-color: var(--activ-color);
   background-origin: border-box;

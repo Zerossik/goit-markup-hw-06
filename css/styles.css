@@ -412,7 +412,7 @@ ul {
   fill: var(--activ-color);
 } */
 /* --------------------------FOOTER-------------------------- */
-.footer {
+/* .footer {
   background-color: #2f303a;
   padding: 60px 0;
 }
@@ -509,12 +509,12 @@ ul {
 
 .subscribe {
   margin-left: 93px;
-}
+} */
 /* .subscribe-wrapper {
   position: relative;
 } */
 
-.subscribe-form {
+/* .subscribe-form {
   position: relative;
 }
 .subscribe-input {
@@ -590,7 +590,7 @@ ul {
 }
 .subscribe-btn-icon {
   fill: #ffffff;
-}
+} */
 /* -----------------PORTFOLIO -------------------*/
 .portfolio {
 }

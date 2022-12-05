@@ -376,7 +376,7 @@ ul {
 
 /* ------------------Постійні клієнти----------------------------- */
 
-.clients-title {
+/* .clients-title {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -410,7 +410,7 @@ ul {
 .client-item-link:hover .clients-logo,
 .client-item-link:focus .clients-logo {
   fill: var(--activ-color);
-}
+} */
 /* --------------------------FOOTER-------------------------- */
 .footer {
   background-color: #2f303a;

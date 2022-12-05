@@ -63,9 +63,9 @@
   justify-content: center;
   fill: var(--icon-color);
   transition: background-color 250ms var(--transition-t-f), fill 250ms var(--transition-t-f);
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--activ-color);
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--activ-color);
+    fill: #ffffff;
+  }
 }

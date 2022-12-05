@@ -20,16 +20,16 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color 250ms var(--transition-t-f);
+  &:hover,
+  &:focus {
+    border-color: var(--activ-color);
+  }
+  &:hover .clients-logo,
+  &:focus .clients-logo {
+    fill: var(--activ-color);
+  }
 }
 .clients-logo {
   fill: var(--icon-color);
   transition: fill 250ms var(--transition-t-f);
-}
-.client-item-link:hover,
-.client-item-link:focus {
-  border-color: var(--activ-color);
-}
-.client-item-link:hover .clients-logo,
-.client-item-link:focus .clients-logo {
-  fill: var(--activ-color);
 }

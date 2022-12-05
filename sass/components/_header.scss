@@ -10,8 +10,7 @@
 }
 
 .site-nav {
-  display: flex;
-  align-items: center;
+  @extend .header-container;
 }
 
 .logo {
@@ -46,10 +45,16 @@
 
   transition: color 250ms var(--transition-t-f);
 }
+.link {
+  .header-item &:hover,
+  .header-item &:focus {
+    color: var(--activ-color);
+  }
 
-.header-item .link:hover,
-.header-item .link:focus {
-  color: var(--activ-color);
+  .contact-item &:hover,
+  .contact-item &:focus {
+    color: var(--activ-color);
+  }
 }
 
 .header-item .link-active {
@@ -62,10 +67,9 @@
 }
 
 .contact-item .link {
-  display: flex;
+  @extend .header-container;
   padding: 32px 0;
   gap: 10px;
-  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -74,11 +78,6 @@
   text-decoration: none;
 
   transition: color 250ms var(--transition-t-f);
-}
-
-.contact-item .link:hover,
-.contact-item .link:focus {
-  color: var(--activ-color);
 }
 
 .mail-icon {

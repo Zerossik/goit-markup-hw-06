@@ -201,7 +201,7 @@ ul {
   border-radius: 4px;
 } */
 /* ------------------------ОСОБЛІВОСТІ--------------------- */
-.peculiarities {
+/* .peculiarities {
 }
 
 .peculiarities-title {
@@ -226,19 +226,6 @@ ul {
   background-color: var(--feature-color);
   border-radius: 4px;
 }
-/* .peculiarities-item:nth-child(1)::before {
-  background-image: url(../images/antenna.svg);
-}
-.peculiarities-item:nth-child(2)::before {
-  background-image: url(../images/clock.svg);
-}
-.peculiarities-item:nth-child(3)::before {
-  background-image: url(../images/diagram.svg);
-}
-.peculiarities-item:nth-child(4)::before {
-  background-image: url(../images/astronaut.svg);
-} */
-
 .peculiarities-item-title {
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -252,10 +239,10 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--discription-color);
-}
+} */
 
 /* --------------Чим ми займаємося------------------ */
-.work {
+/* .work {
   padding-top: 0;
 }
 
@@ -299,10 +286,10 @@ ul {
   text-transform: uppercase;
 
   color: #ffffff;
-}
+} */
 
 /* ------------------Наша команда ------------------------*/
-.team {
+/* .team {
   background-color: #f5f4fa;
 }
 
@@ -372,7 +359,7 @@ ul {
 .social-link:focus {
   background-color: var(--activ-color);
   fill: #ffffff;
-}
+} */
 /* !!!!ВОПРОС
   МЕНТОРУ!!!!
   ЗАЧЕМ

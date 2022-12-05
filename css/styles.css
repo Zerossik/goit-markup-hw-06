@@ -717,7 +717,7 @@ ul {
 
 /* ---------------------Ефекти та переходи------------------- */
 /* поточна сторінка */
-.header-item {
+/* .header-item {
   position: relative;
 }
 .link-active::after {
@@ -730,11 +730,11 @@ ul {
   width: 100%;
   background-color: var(--activ-color);
   border-radius: 2px;
-}
+} */
 
 /* -----------------MODAL-------------------- */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -769,10 +769,10 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   pointer-events: auto;
-}
+} */
 
 /* -----------___________MODAL FORM____------------------ */
-.modal-form-block {
+/* .modal-form-block {
   margin-bottom: 10px;
   position: relative;
 }
@@ -924,4 +924,4 @@ ul {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */

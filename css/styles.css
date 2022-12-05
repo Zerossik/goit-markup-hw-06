@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --activ-color: #2196f3;
   --main-title-color: #212121;
   --discription-color: #757575;
@@ -13,9 +13,9 @@ body {
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -29,17 +29,15 @@ p {
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 
-img {
+/* img {
   display: block;
 }
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  /* background-color: cadetblue;
-  outline: 2px solid red; */
 }
 
 .section {
@@ -72,9 +70,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /*------------------------header------------------------*/
-.header {
+/* .header {
   background-color: #ffffff;
   letter-spacing: 0.02em;
   border-bottom: 1px solid #ececec;
@@ -163,7 +161,7 @@ img {
 
 .phone-icon {
   fill: currentColor;
-}
+} */
 /* -----------------------HERO----------------------- */
 .hero {
   background-color: #2f303a;

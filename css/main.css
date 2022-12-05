@@ -750,4 +750,110 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.1666666667;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.portfolio-filter {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--text-white-color);
+  background-color: var(--activ-color);
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-item-link:focus .portfolio-overlay {
+  transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  transform: translateY(0);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: #f5f4fa;
+  padding: 6px 22px;
+  border-radius: 4px;
+  transition: background-color 250ms var(--transition-t-f), color 250ms var(--transition-t-f), box-shadow 250ms var(--transition-t-f);
+}
+
+.portfolio-item {
+  transition: box-shadow 250ms var(--transition-t-f);
+}
+
+.portfolio-item-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(calc(100% + 1px));
+  transition: transform 250ms var(--transition-t-f);
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  text-align: center;
+  overflow: hidden;
+}
+
+.overlay-description {
+  display: inline-block;
+  max-height: 168px;
+  font-size: 18px;
+  line-height: 1.5555555556;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  overflow: auto;
+}
+
+.portfolio-item-container {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+
+.portfolio-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+  margin-bottom: 4px;
+}
+
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--discription-color);
 }/*# sourceMappingURL=main.css.map */
